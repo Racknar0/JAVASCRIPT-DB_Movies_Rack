@@ -117,6 +117,10 @@ button {
   animation: loading-skeleton 1s infinite;
 }
 
+.movie-container--loading:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
 .movie-img {
   border-radius: 8px;
 }
@@ -228,6 +232,27 @@ button {
   width: 45%;
 }
 
+.category-container--loading{
+  background-color: var(--purple-light-2);
+  border-radius: 8px;
+  height: 25px;
+  min-height: 25px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  margin-bottom: 15px;
+  animation: loading-skeleton 1s infinite;
+}
+
+.category-container--loading:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.category-container--loading:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+
+
 .category-title {
   margin-bottom: 8px;
   cursor: pointer;
@@ -280,6 +305,19 @@ button {
   display: inline-block;
   width: 47.5%;
 }
+
+.genericList-container .movie-container .movie-container--loading {
+  background-color: var(--purple-light-2);
+  border-radius: 8px;
+  height: 30px;
+  min-height: 25px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+  margin-bottom: 15px;
+  animation: loading-skeleton 1s infinite;
+}
+
 
 .genericList-container .movie-img {
   width: 100%;
