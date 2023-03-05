@@ -1,0 +1,2 @@
+[build.environment]
+  API_KEY = "${API_KEY}"
