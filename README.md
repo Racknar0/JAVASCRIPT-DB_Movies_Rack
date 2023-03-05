@@ -1,4 +1,4 @@
-# curso-api-rest-javascript-practico
+# Aplicacion API REST Peliculas
 Aplicacion web para dispositivos moviles, que permite buscar peliculas y agregarlas a una lista de peliculas favoritas.
 
 # Deploy
