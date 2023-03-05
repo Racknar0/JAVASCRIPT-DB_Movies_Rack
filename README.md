@@ -1,5 +1,5 @@
 # curso-api-rest-javascript-practico
-Curso Práctico de Consumo de API REST con JavaScript
+Aplicacion web para dispositivos moviles, que permite buscar peliculas y agregarlas a una lista de peliculas favoritas.
 
 # Deploy
 https://db-movie-rack.netlify.app/
