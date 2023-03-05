@@ -188,7 +188,8 @@ button {
   height: 480px;
   position: fixed;
   top: 0;
-  width: 400px;
+  width: 347px;
+  margin-top: 6px;
 }
 
 .header-container--categoryView {
@@ -380,7 +381,7 @@ button {
   padding: 32px 24px;
   margin-top: 403px;
   z-index: 1;
-  position: absolute;
+  position: relative;
   background-color: var(--purple-light-1);
 }
 
@@ -450,6 +451,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
 }
 
 
