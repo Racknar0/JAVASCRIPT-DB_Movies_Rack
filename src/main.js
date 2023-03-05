@@ -8,6 +8,9 @@ const api = axios.create({
     },
 });
 
+/* window.API_KEY = '1a2b3c4d5e6f7g8h9i0j'; */
+console.log('API_KEY', window.API_KEY);
+
 function likedMoviesList(){
     return localStorage.getItem('likedMovies') ? JSON.parse(localStorage.getItem('likedMovies')) : {};
 }
