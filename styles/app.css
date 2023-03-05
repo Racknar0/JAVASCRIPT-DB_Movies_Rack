@@ -31,7 +31,7 @@ html {
 }
 
 body {
-  background-color: var(--purple-light-1);
+  background-color: var(--purple-dark-2);
   color: var(--purple-dark-2);
   font-family: var(--font-family-text);
   font-weight: var(--font-weight-text1);
@@ -88,18 +88,20 @@ button {
   cursor: pointer;
 }
 
-/* .main_container_app{
+.main_container_app{
   margin: 0 auto;
-  max-width: 768px;
+  max-width: 400px;
   padding: 0 24px;
-} */
+  border: 2px solid var(--purple-medium-1);
+  background-color: var(--purple-light-1);
+}
 
 /* Shared */
 .header-container, .trendingPreview-header, .categoriesPreview-container, .liked-header {
   padding: 0 24px;
 }
 
-.trendingPreview-container, .categoriesPreview-container, .liked-container, footer {
+.trendingPreview-container, .categoriesPreview-container, .liked-container {
   margin-top: 48px;
 }
 
@@ -186,7 +188,7 @@ button {
   height: 480px;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 400px;
 }
 
 .header-container--categoryView {
@@ -372,6 +374,7 @@ button {
 
 /* Movie Detail */
 .movieDetail-container {
+  max-width: 400px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding: 32px 24px;
@@ -418,8 +421,9 @@ button {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  width: calc(100vw - 24px);
+  width: calc(400px - 24px);
   padding-bottom: 16px;
+  max-height: 203px;
 }
 
 .relatedMovies-scrollContainer .movie-container {
