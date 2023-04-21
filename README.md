@@ -64,8 +64,7 @@
 
 -   Clone the repository in your computer.
 -   Navigate to the root folder of the project.
--   Run the command `npm install` to install the dependencies of the project.
--   Run the command `npm run start` to start the project in development mode.
+-   Open index.html in your browser.
 -   Enjoy it. 🎉
 
 <img src="https://raw.githubusercontent.com/Racknar0/logos/master/coleccion-logos/rainbow.png" alt="css3" width="100%" height="6" />
